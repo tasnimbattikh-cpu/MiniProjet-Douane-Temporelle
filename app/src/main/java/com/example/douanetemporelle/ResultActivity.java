@@ -43,7 +43,11 @@ public class ResultActivity extends AppCompatActivity {
             layoutResultat.setBackgroundColor(Color.parseColor("#B71C1C"));
             txtResultat.setText(nom + " est en état d'arrestation temporelle");
         }
+<<<<<<< HEAD
+//
+=======
 
+>>>>>>> origin/main
         btnNouveau.setOnClickListener(v -> {
             Intent retour = new Intent(ResultActivity.this, MainActivity.class);
             retour.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP
