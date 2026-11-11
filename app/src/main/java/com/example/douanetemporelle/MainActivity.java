@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
 
             } catch (NumberFormatException e) {
-                Toast.makeText(this, "أدخل السنوات بالأرقام فقط",
+                Toast.makeText(this, "entrer seulement des chiffres",
                         Toast.LENGTH_SHORT).show();
             }
         });
